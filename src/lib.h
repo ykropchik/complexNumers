@@ -14,5 +14,7 @@ ComplexNumber operator +(const ComplexNumber &first, const ComplexNumber &second
 ComplexNumber operator -(const ComplexNumber &first, const ComplexNumber &second);
 ComplexNumber operator *(const ComplexNumber &first, const ComplexNumber &second);
 ComplexNumber operator /(const ComplexNumber &first, const ComplexNumber &second);
+bool operator ==(const ComplexNumber &first, const ComplexNumber &second);
+bool operator !=(const ComplexNumber &first, const ComplexNumber &second);
 ostream &operator <<(ostream &out, const ComplexNumber &number);
 

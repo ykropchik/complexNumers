@@ -41,11 +41,11 @@ ComplexNumber operator /(const ComplexNumber &first, const ComplexNumber &second
     return answer;
 }
 
-inline bool operator ==(const ComplexNumber &first, const ComplexNumber &second){
-    return (first.a == second.a) && (first.b == second.b);
+bool operator ==(const ComplexNumber &first, const ComplexNumber &second){
+    return ((first.a == second.a) && (first.b == second.b));
 }
 
-inline bool operator !=(const ComplexNumber &first, const ComplexNumber &second){
+bool operator !=(const ComplexNumber &first, const ComplexNumber &second){
     return (first.a != second.a) && (first.b != second.b);
 }
 
